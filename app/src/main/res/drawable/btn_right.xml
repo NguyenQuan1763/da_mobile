@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Trạng thái khi nhấn -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <!-- Bo góc chỉ 2 góc phải -->
+            <corners
+                android:topRightRadius="16dp"
+                android:bottomRightRadius="16dp" />
+            <!-- Màu nền khi nhấn, ví dụ chuyển thành màu xám nhạt -->
+            <solid android:color="#A2A2A2" />
+            <stroke
+                android:width="2dp"
+                android:color="@android:color/transparent" />
+        </shape>
+    </item>
+
+    <!-- Trạng thái mặc định -->
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Bo góc chỉ 2 góc phải -->
+            <corners
+                android:topRightRadius="16dp"
+                android:bottomRightRadius="16dp" />
+            <solid android:color="@color/white" />
+            <stroke
+                android:width="2dp"
+                android:color="@android:color/transparent" />
+        </shape>
+    </item>
+</selector>

@@ -11,6 +11,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.da_mobile.Login.LoginActivity;
 import com.example.da_mobile.Regist.SignUpActivity;
 
 public class StartScreenActivity extends AppCompatActivity {

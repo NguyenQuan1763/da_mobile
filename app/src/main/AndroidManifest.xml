@@ -13,10 +13,10 @@
         android:theme="@style/Theme.Da_mobile"
         tools:targetApi="31">
         <activity
-            android:name=".ResetpasswordActivity"
+            android:name=".Login.ResetpasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".Login.LoginActivity"
             android:exported="true"></activity>
         <activity
             android:name=".Regist.RegistrationSuccessfulActivity"
@@ -27,15 +27,18 @@
         <activity
             android:name=".StartScreenActivity"
             android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
     </application>
 
 </manifest>
